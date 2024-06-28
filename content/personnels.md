@@ -3,4 +3,14 @@ title = "Personnels"
 date = 2024-06-28
 +++
 
-This is my first blog post.
+# Personnels
+
+## PhD
+
+### Abc
+
+
+
+### Cde
+
+## PostGrad

@@ -7,7 +7,7 @@ sort_by = "date"
 
 > TODO
 
-Code block test
+## Code block test
 
 ```rust
 use std::{
@@ -54,5 +54,14 @@ fn handle_connection(mut stream: TcpStream) {
 
     stream.write_all(response.as_bytes()).unwrap();
 }
+```
 
+## Contributing
+
+Use github to contribute to this repo
+
+```bash
+sudo emerge -at zola
+git clone <repo url>
+cd <repo>
 ```
