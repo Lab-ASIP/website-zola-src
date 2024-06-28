@@ -9,4 +9,6 @@ We use this code to autogenerate html files, and put it to the page
 - [ ] Add sections
 - [ ] Add content to every section
 - [ ] Add assets
-- [ ] Add contribution information
+- [ ] Docs
+  - [ ] Information about this repo
+  - [ ] Add contribution information
