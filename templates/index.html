@@ -1,0 +1,42 @@
+{% extends "juice/templates/index.html" %} {% block sidebar %}
+<div>
+	TODO: add sidebar
+</div>
+{% endblock sidebar %}
+
+{% block fonts %}
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Product+Sans&amp;family=Google+Sans+Display:ital@0;1&amp;family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap">
+{% endblock fonts %}
+
+{% block hero %}
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<section class="text-center">
+	<h1 class="heading-text" style="font-size: 50px">
+		ASIP lab
+	</h1>
+	<h3 class="title-text">
+		<b>ASIP</b> is an intuitive, elegant, and lightweight Zola theme for product websites.
+	</h3>
+</section>
+<img class="hero-image" style="width: 50%" src="{{ get_url(path="meloncat.png") }}">
+
+<div class="explore-more text" onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+	More ⇩
+</div>
+<style>
+	.hero section {
+		padding: 0 5rem;
+	}
+
+	@media screen and (max-width: 768px) {
+		.hero section {
+			padding: 0 2rem;
+		}
+
+		.hero-image {
+			display: none
+		}
+	}
+</style>
+{% endblock hero %}
