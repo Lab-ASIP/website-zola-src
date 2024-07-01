@@ -1,13 +1,16 @@
 # Zola source for ASIP website
 
-We use this code to autogenerate html files, and put it to the page
+We use this code to auto generate html files, and put it to the github pages
 
 ## TODO
 
-- [ ] Complete theming
+- [x] Complete theming
 - [x] Github CI
-- [ ] Add sections
-- [ ] Add content to every section
+- [ ] Complete sections
+  - [ ] Personnels
+  - [x] Resources
+  - [ ] Published works
+  - [ ] Github
 - [ ] Add assets
 - [ ] Docs
   - [ ] Information about this repo
