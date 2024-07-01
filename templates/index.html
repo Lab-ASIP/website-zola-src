@@ -1,6 +1,7 @@
 {% extends "juice/templates/index.html" %} {% block sidebar %}
 {% endblock sidebar %}
 
+<!-- set font to all pages -->
 {% block fonts %}
 <link rel="stylesheet"
 	href="https://fonts.googleapis.com/css2?family=Product+Sans&amp;family=Google+Sans+Display:ital@0;1&amp;family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap">
@@ -13,7 +14,7 @@
 		ASIP lab
 	</h1>
 	<h3 class="title-text">
-		<b>ASIP</b>, the short form of <i>Audio Speech Information Processing group</i>, is a research group focusing on advancing technologies related to audio and speech information processing.
+		<i>Audio Speech Information Processing</i> lab,<br> is a research lab focusing on advancing technologies related to audio and speech information processing.
 	</h3>
 </section>
 <img class="hero-image" style="width: 50%" src="{{ get_url(path="meloncat.png") }}">
@@ -37,3 +38,8 @@
 }
 </style>
 {% endblock hero %}
+
+
+<!-- Remove footer -->
+{% block footer %}
+{% endblock footer %}
