@@ -20,6 +20,7 @@ highlight_theme = "base16-ocean-light"
 juice_logo_name = "ASIP lab"
 juice_logo_path = "meloncat.png"
 juice_extra_menu = [
-    { title = "Github", link = "https://github.com/Lab-ASIP"}
+	{ title = "Github", link = "https://github.com/Lab-ASIP" },
+	{ title = "Wiki", link = "http://index.cslt.org/mediawiki/index.php/%E9%A6%96%E9%A1%B5" },
 ]
 repository_url = "https://github.com/huhu/juice"
