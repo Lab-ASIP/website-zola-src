@@ -3,20 +3,17 @@
 <!-- This file is used to customize the personnel page. -->
 
 {% block content %}
-<h1 class="title">
-  {{ section.title }}
-</h1>
-<ul>
-  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
-  {% set categories = get_taxonomy(kind="role") %}
-  {% for category in categories.items %}
-	<h2> {{category.name}} </h2>
-	{% for person in category.pages %}
-	<h3> {{person.title}} </h3>
-	<a href={{person.path}}>homepage</a>
-	<br>
-	TODO: person's image
-	{% endfor %}
-  {% endfor %}
-</ul>
-{% endblock content %}
+<h1 class="title">{{ section.title }}</h1>
+{% set categories = get_taxonomy(kind="role") %} {% for category in
+categories.items %}
+<h2 id="{{category.name | slugify}}">
+	<a href="#{{category.name | slugify}}">{{category.name}}</a>
+</h2>
+{% for person in category.pages %}
+<h3>{{person.title}}</h3>
+{% if person.description %}
+<blockquote cite="">{{person.description}}</blockquote>
+{% endif %}
+<a href="{{person.path}}">homepage</a>
+<!-- TODO: person's image -->
+{% endfor %} {% endfor %} {% endblock content %}
