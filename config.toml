@@ -9,6 +9,8 @@ build_search_index = true
 
 theme = "juice"
 
+taxonomies = [{ name = "role", render = false }]
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -20,6 +22,7 @@ highlight_theme = "base16-ocean-light"
 juice_logo_name = "ASIP lab"
 juice_logo_path = "meloncat.png"
 juice_extra_menu = [
+	{ title = "Personnel", link = "personnel" },
 	{ title = "Github", link = "https://github.com/Lab-ASIP" },
 	{ title = "Wiki", link = "http://index.cslt.org/mediawiki/index.php/%E9%A6%96%E9%A1%B5" },
 ]

@@ -2,6 +2,14 @@
 
 We use this code to auto generate html files, and put it to the github pages
 
+## Missing assets
+
+### 图片
+
+### 文字
+
+### 资源
+
 ## TODO
 
 - [x] Complete theming
