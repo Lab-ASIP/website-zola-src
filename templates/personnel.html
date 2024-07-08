@@ -10,10 +10,9 @@ categories.items %}
 	<a href="#{{category.name | slugify}}">{{category.name}}</a>
 </h2>
 {% for person in category.pages %}
-<h3>{{person.title}}</h3>
+<a href="{{person.path}}"><h3>{{person.title}}</h3></a>
 {% if person.description %}
-<blockquote cite="">{{person.description}}</blockquote>
+{{person.description}}
 {% endif %}
-<a href="{{person.path}}">homepage</a>
 <!-- TODO: person's image -->
 {% endfor %} {% endfor %} {% endblock content %}
