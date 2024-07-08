@@ -37,12 +37,21 @@ We use this code to auto generate html files, and put it to the github pages
 
 ## TODO
 
-- [x] Complete theming
+- [x] Complete theming (almost complete)
 - [x] Github CI
 - [ ] Complete sections
-  - [x] Personnel
-  - [x] Resources
+  - [ ] Personnel
+    - [x] logic
+    - [ ] content
+  - [ ] news
+    - [x] logic
+    - [ ] content
+  - [ ] Resources
+    - [x] logic
+    - [ ] content
   - [ ] Published works
+    - [ ] logic
+    - [ ] content
   - [x] Github
 - [ ] Add assets
 - [ ] Docs
