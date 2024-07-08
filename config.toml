@@ -19,11 +19,14 @@ highlight_theme = "base16-ocean-light"
 
 [extra]
 # Put all your custom variables here
-juice_logo_name = "ASIP lab"
+juice_logo_name = ""
 juice_logo_path = "meloncat.png"
 juice_extra_menu = [
-	{ title = "Personnel", link = "/personnel" },
-	{ title = "Github", link = "https://github.com/Lab-ASIP" },
+	{ title = "Members", link = "/personnel" },
+	{ title = "News", link = "/news" },
+	{ title = "Research", link = "/research" },
+	{ title = "Resource", link = "/resource" },
 	{ title = "Wiki", link = "http://index.cslt.org/mediawiki/index.php/%E9%A6%96%E9%A1%B5" },
+	{ title = "Github", link = "https://github.com/Lab-ASIP" },
 ]
 repository_url = "https://github.com/huhu/juice"
